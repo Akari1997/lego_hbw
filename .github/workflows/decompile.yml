@@ -1,0 +1,53 @@
+name: Decompile DLLs (push to branch)
+
+on:
+  workflow_dispatch:
+
+jobs:
+  decompile:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: '7.0.x'
+
+      - name: Install ilspycmd
+        run: |
+          dotnet tool install --global ilspycmd
+          echo "$HOME/.dotnet/tools" >> $GITHUB_PATH
+
+      - name: Run ilspycmd to decompile DLLs
+        run: |
+          set -e
+          mkdir -p decompiled
+          if [ -f Devart.Data.Oracle.dll ]; then
+            ilspycmd -p -o decompiled Devart.Data.Oracle.dll
+          else
+            echo "Devart.Data.Oracle.dll not found"
+          fi
+          if [ -f Devart.Data.dll ]; then
+            ilspycmd -p -o decompiled Devart.Data.dll
+          else
+            echo "Devart.Data.dll not found"
+          fi
+
+      - name: Commit and push to branch
+        env:
+          BRANCH: lego_hbw_decompiled
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -b $BRANCH || git checkout $BRANCH
+          git add decompiled || true
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Add decompiled output for Devart DLLs"
+            git push --set-upstream origin $BRANCH
+          fi
