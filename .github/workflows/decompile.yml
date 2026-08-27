@@ -1,7 +1,10 @@
-name: Decompile DLLs (push to branch)
+name: Decompile DLLs (debug)
 
 on:
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   decompile:
@@ -12,35 +15,79 @@ jobs:
         with:
           persist-credentials: true
 
+      - name: Show runner info
+        run: |
+          echo "USER: $USER"
+          uname -a
+          env | sort
+
       - name: Setup .NET
         uses: actions/setup-dotnet@v3
         with:
           dotnet-version: '7.0.x'
 
-      - name: Install ilspycmd
-        run: |
-          dotnet tool install --global ilspycmd
-          echo "$HOME/.dotnet/tools" >> $GITHUB_PATH
+      - name: dotnet --info
+        run: dotnet --info
 
-      - name: Run ilspycmd to decompile DLLs
+      - name: List repo files
         run: |
-          set -e
+          echo "Working dir: $(pwd)"
+          ls -la
+          echo "Root listing:"
+          ls -la .
+
+      - name: Install or update ilspycmd (diagnostic)
+        run: |
+          set -x
+          dotnet tool install --global ilspycmd || dotnet tool update --global ilspycmd || true
+          echo "$HOME/.dotnet/tools" >> $GITHUB_PATH
+          # Ensure PATH is updated in this runner
+          echo "PATH=$PATH"
+          which ilspycmd || echo "ilspycmd not found in PATH"
+          ilspycmd --version || true
+
+      - name: Verify DLLs exist
+        run: |
+          for f in Devart.Data.Oracle.dll Devart.Data.dll LEGO_HBW.exe; do
+            if [ -f "$f" ]; then
+              echo "FOUND: $f (size=$(stat -c%s "$f"))"
+            else
+              echo "MISSING: $f"
+            fi
+          done
+
+      - name: Run ilspycmd to decompile (verbose)
+        run: |
+          set -x
           mkdir -p decompiled
           if [ -f Devart.Data.Oracle.dll ]; then
-            ilspycmd -p -o decompiled Devart.Data.Oracle.dll
+            ilspycmd -p -o decompiled/Devart.Data.Oracle Devart.Data.Oracle.dll 2>&1 | sed -n '1,200p'
           else
             echo "Devart.Data.Oracle.dll not found"
           fi
           if [ -f Devart.Data.dll ]; then
-            ilspycmd -p -o decompiled Devart.Data.dll
+            ilspycmd -p -o decompiled/Devart.Data Devart.Data.dll 2>&1 | sed -n '1,200p'
           else
             echo "Devart.Data.dll not found"
           fi
 
-      - name: Commit and push to branch
-        env:
-          BRANCH: lego_hbw_decompiled
+      - name: Show generated files
         run: |
+          ls -la decompiled || true
+
+      - name: Debug git info before push
+        run: |
+          git --version
+          git status --porcelain --branch
+          git config user.name || true
+          git config user.email || true
+          git remote -v
+
+      - name: Commit and push decompiled output (debug)
+        env:
+          BRANCH: decompiled-output
+        run: |
+          set -x
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git checkout -b $BRANCH || git checkout $BRANCH
@@ -48,6 +95,9 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "Add decompiled output for Devart DLLs"
-            git push --set-upstream origin $BRANCH
+            git commit -m "Add decompiled output for Devart DLLs (debug run)" || (git show --name-status && false)
+            # show remote before push
+            git remote -v
+            # push with verbose
+            GIT_TRACE=1 GIT_CURL_VERBOSE=1 git push --set-upstream origin $BRANCH
           fi
