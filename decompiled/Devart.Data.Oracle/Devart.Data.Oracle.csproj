@@ -1,0 +1,68 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>Devart.Data.Oracle</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>net20</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>14.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Devart.Data.Oracle.OracleCommand.bmp" />
+    <None Remove="Devart.Data.Oracle.OracleDataSet.bmp" />
+    <None Remove="Devart.Data.Oracle.OracleCommandBuilder.bmp" />
+    <None Remove="Devart.Data.Oracle.OraclePipe.bmp" />
+    <None Remove="Devart.Data.Oracle.OracleDataAdapter.bmp" />
+    <None Remove="Devart.Data.Oracle.OracleDataTypes.xml" />
+    <None Remove="Devart.Data.Oracle.OracleQueueTable.bmp" />
+    <None Remove="Devart.Data.Oracle.OracleAlerter.bmp" />
+    <None Remove="Devart.Data.Oracle.OracleQueueAdmin.bmp" />
+    <None Remove="Devart.Data.Oracle.OracleConnection.bmp" />
+    <None Remove="Devart.Data.Oracle.OraclePackage.bmp" />
+    <None Remove="Devart.Data.Oracle.OracleQueue.bmp" />
+    <None Remove="Devart.Data.Oracle.OracleLoader.bmp" />
+    <None Remove="Devart.Data.Oracle.MetaData.xml" />
+    <None Remove="Devart.Data.Oracle.OracleTrace.bmp" />
+    <None Remove="Devart.Data.Oracle.OracleMonitor.bmp" />
+    <None Remove="Devart.Data.Oracle.OracleScript.bmp" />
+    <None Remove="Devart.Data.Oracle.OracleDataTable.bmp" />
+    <EmbeddedResource Include="Devart.Data.Oracle.OracleCommand.bmp" LogicalName="Devart.Data.Oracle.OracleCommand.bmp" />
+    <EmbeddedResource Include="Devart.Data.Oracle.OracleDataSet.bmp" LogicalName="Devart.Data.Oracle.OracleDataSet.bmp" />
+    <EmbeddedResource Include="Devart.Data.Oracle.OracleCommandBuilder.bmp" LogicalName="Devart.Data.Oracle.OracleCommandBuilder.bmp" />
+    <EmbeddedResource Include="Devart.Data.Oracle.OraclePipe.bmp" LogicalName="Devart.Data.Oracle.OraclePipe.bmp" />
+    <EmbeddedResource Include="Devart.Data.Oracle.OracleDataAdapter.bmp" LogicalName="Devart.Data.Oracle.OracleDataAdapter.bmp" />
+    <EmbeddedResource Include="Devart.Data.Oracle.OracleDataTypes.xml" LogicalName="Devart.Data.Oracle.OracleDataTypes.xml" />
+    <EmbeddedResource Include="Devart.Data.Oracle.OracleQueueTable.bmp" LogicalName="Devart.Data.Oracle.OracleQueueTable.bmp" />
+    <EmbeddedResource Include="Devart.Data.Oracle.OracleAlerter.bmp" LogicalName="Devart.Data.Oracle.OracleAlerter.bmp" />
+    <EmbeddedResource Include="Devart.Data.Oracle.OracleQueueAdmin.bmp" LogicalName="Devart.Data.Oracle.OracleQueueAdmin.bmp" />
+    <EmbeddedResource Include="Devart.Data.Oracle.OracleConnection.bmp" LogicalName="Devart.Data.Oracle.OracleConnection.bmp" />
+    <EmbeddedResource Include="Devart.Data.Oracle.OraclePackage.bmp" LogicalName="Devart.Data.Oracle.OraclePackage.bmp" />
+    <EmbeddedResource Include="Devart.Data.Oracle.OracleQueue.bmp" LogicalName="Devart.Data.Oracle.OracleQueue.bmp" />
+    <EmbeddedResource Include="Devart.Data.Oracle.OracleLoader.bmp" LogicalName="Devart.Data.Oracle.OracleLoader.bmp" />
+    <EmbeddedResource Include="Devart.Data.Oracle.MetaData.xml" LogicalName="Devart.Data.Oracle.MetaData.xml" />
+    <EmbeddedResource Include="Devart.Data.Oracle.OracleTrace.bmp" LogicalName="Devart.Data.Oracle.OracleTrace.bmp" />
+    <EmbeddedResource Include="Devart.Data.Oracle.OracleMonitor.bmp" LogicalName="Devart.Data.Oracle.OracleMonitor.bmp" />
+    <EmbeddedResource Include="Devart.Data.Oracle.OracleScript.bmp" LogicalName="Devart.Data.Oracle.OracleScript.bmp" />
+    <EmbeddedResource Include="Devart.Data.Oracle.OracleDataTable.bmp" LogicalName="Devart.Data.Oracle.OracleDataTable.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Data">
+      <HintPath>../../../../../../../usr/share/dotnet/shared/Microsoft.NETCore.App/10.0.11/System.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Transactions">
+      <HintPath>../../../../../../../usr/share/dotnet/shared/Microsoft.NETCore.App/10.0.11/System.Transactions.dll</HintPath>
+    </Reference>
+    <Reference Include="Devart.Data">
+      <HintPath>../../Devart.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>../../../../../../../usr/share/dotnet/shared/Microsoft.NETCore.App/10.0.11/System.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+</Project>

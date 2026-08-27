@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="OracleAlerter_Stopped" xml:space="preserve"><value>Event triggered when wait process is stopped.</value></data>
+  <data name="CanNotAppendToNULLOracleLob" xml:space="preserve"><value>Can not append to NULL OracleLob object.</value></data>
+  <data name="CanNotWriteToBFILE" xml:space="preserve"><value>Can not write to BFILE.</value></data>
+  <data name="InvalidDestinationType" xml:space="preserve"><value>Invalid destination type</value></data>
+  <data name="Queue_EnqueueOptions" xml:space="preserve"><value>Enqueue options used for inserting messages into queues by default.</value></data>
+  <data name="QueueOptions_RetentionTime" xml:space="preserve"><value>Number of seconds for which a message is retained in the queue table after being dequeued from the queue.</value></data>
+  <data name="DbConnectionString_OciSessionPoolMinSize" xml:space="preserve"><value>The minimum number of sessions allowed in the OCI session pool. </value></data>
+  <data name="OracleConnection_Failover" xml:space="preserve"><value>Event triggered when Oracle database instance fails.</value></data>
+  <data name="CanNotFoundOracleHome" xml:space="preserve"><value>Can not find Oracle home.</value></data>
+  <data name="CanNotFindTnsnames" xml:space="preserve"><value>Can not find tnsnames.ora file.</value></data>
+  <data name="OracleAlerter_Timeout" xml:space="preserve"><value>Indicates the maximum time to wait for alert (in seconds).</value></data>
+  <data name="Queue_PayloadArrayTypeName" xml:space="preserve"><value>Array type name for object type queues.</value></data>
+  <data name="OracleCommandBuilder_IdentityUpdate" xml:space="preserve"><value>Determines whether the row identity column value is database-generated or it is provided by DataSet when updating the DataSet data in the database. This property is ignored if IdentityType for the identity column is None or GeneratedAlways.</value></data>
+  <data name="CanNotWriteToNULLLOB" xml:space="preserve"><value>Can not write to NULL LOB.</value></data>
+  <data name="CanNotGetPointerFromNULL" xml:space="preserve"><value>Can not get pointer from NULL value.</value></data>
+  <data name="QueueTableOptions_Comment" xml:space="preserve"><value>User-specified description of the queue table.</value></data>
+  <data name="OracleConnection_ConnectMode" xml:space="preserve"><value>Allows to open a session with administrative privileges SYSDBA or SYSOPER.</value></data>
+  <data name="CanNotCopyToNULLLOB" xml:space="preserve"><value>Can not copy to NULL destination LOB.</value></data>
+  <data name="Queue_DequeueOptions" xml:space="preserve"><value>Dequeue options, which are used to dequeue messages from queues by default.</value></data>
+  <data name="QueueAdmin_Options" xml:space="preserve"><value>Queue options used for its creation.</value></data>
+  <data name="OracleLoader_Connection" xml:space="preserve"><value>Connection used by loader.</value></data>
+  <data name="InvalidSecurityXMLVersion" xml:space="preserve"><value>Invalid security XML version.</value></data>
+  <data name="Queue_Connection" xml:space="preserve"><value>An OracleConnection that represents the connection to an instance of Oracle server.</value></data>
+  <data name="QueueTable_Connection" xml:space="preserve"><value>An OracleConnection that represents the connection to an instance of Oracle server.</value></data>
+  <data name="ColumnWithNameDoesNotExist" xml:space="preserve"><value>Column with name {0} does not exist.</value></data>
+  <data name="DbConnectionString_NumberMappings" xml:space="preserve"><value>Specifies mapping settings for mapping NUMBER and FLOAT data types to .NET types. Default value is an empty collection. It means that default mapping will be used.</value></data>
+  <data name="PassedArgumentNotValidSecurityElement" xml:space="preserve"><value>Passed argument is not valid security element.</value></data>
+  <data name="OracleConnection_Direct" xml:space="preserve"><value>Indicates whether Direct mode of communicating with server should be used.</value></data>
+  <data name="OraclePackage_Connection" xml:space="preserve"><value>Connection used by the package.</value></data>
+  <data name="CountCanNotBeNegative" xml:space="preserve"><value>Count can not be negative.</value></data>
+  <data name="DequeueOptions_ConsumerName" xml:space="preserve"><value>Gets or sets the name of the consumer.</value></data>
+  <data name="InvalidSeekOriginValue" xml:space="preserve"><value>Invalid SeekOrigin value.</value></data>
+  <data name="OracleTrace_TraceFileIdentifier" xml:space="preserve"><value>Gets or sets a file name suffix for the SQL trace dump file.</value></data>
+  <data name="TimeoutError" xml:space="preserve"><value>Server did not respond within the specified timeout interval</value></data>
+  <data name="QueueOptions_RetryDelay" xml:space="preserve"><value>Delay time, in seconds, before this message is scheduled for processing again after an application rollback.</value></data>
+  <data name="MessageProperties_Priority" xml:space="preserve"><value>Specifies the priority of the message.</value></data>
+  <data name="QueueTableOptions_PayloadTypeName" xml:space="preserve"><value>Type of the user data stored.</value></data>
+  <data name="OracleConnectionString_Unicode" xml:space="preserve"><value>Specifies whether dotConnect for Oracle uses UTF16 mode API calls.</value></data>
+  <data name="QueueTableOptions_SortOrder" xml:space="preserve"><value>The sort order in ascending order.</value></data>
+  <data name="DbConnectionString_ConnectionClass" xml:space="preserve"><value>The connection class for Database Resident Connection Pooling</value></data>
+  <data name="OracleTrace_Description" xml:space="preserve"><value>Traces command execution on Oracle server.</value></data>
+  <data name="DequeueOptions_DequeueCondition" xml:space="preserve"><value>A conditional expression based on the message properties, the message data properties, and PL/SQL functions.</value></data>
+  <data name="NETNetworkError" xml:space="preserve"><value>Network error:</value></data>
+  <data name="OracleAlerter_Interval" xml:space="preserve"><value>Indicates interval to restart waiting for alerts.</value></data>
+  <data name="OracleCommandBuilder_IdentityInsert" xml:space="preserve"><value>Determines whether the row identity column value is database-generated or it is provided by DataSet when inserting the DataSet data into the database. This property is ignored if IdentityType for the identity column is None or GeneratedAlways.</value></data>
+  <data name="OciInvalidHandle" xml:space="preserve"><value>OCI invalid handle.</value></data>
+  <data name="OracleConnection_Sid" xml:space="preserve"><value>The system identifier that specifies instance name.</value></data>
+  <data name="QueueAdmin_Description" xml:space="preserve"><value>Manages Oracle Streams Advanced Queuing (AQ) configuration and administration information.</value></data>
+  <data name="OraArrayNotSupportInsert" xml:space="preserve"><value>OracleArray does not support insert operation</value></data>
+  <data name="CanNotModifyNULLBFILE" xml:space="preserve"><value>Can not modify NULL BFILE.</value></data>
+  <data name="YearIsOutOfRange" xml:space="preserve"><value>Year is out of range.</value></data>
+  <data name="DbConnectionString_PassParametersByName" xml:space="preserve"><value>Pass parameters by name to the stored procedure calls. If set to true, parameters will be passed by name regardless of individual OracleCommand.PassParametersByName values.</value></data>
+  <data name="ValueTypeNotSuppotred" xml:space="preserve"><value>Value with type {0} not supported.</value></data>
+  <data name="CanNotObtainOracleClientFromRegistry" xml:space="preserve"><value>Can not obtain Oracle client information from registry. Make sure that Oracle Client Software is installed, or use Direct mode of connecting to server.</value></data>
+  <data name="FieldOffsetNotNegative" xml:space="preserve"><value>FieldOffset can not be negative.</value></data>
+  <data name="DbConnectionString_Server" xml:space="preserve"><value>The name of TNS alias of Oracle database to which to connect.</value></data>
+  <data name="OraArrayNotSupportAttributes" xml:space="preserve"><value>OracleArray does not support attributes</value></data>
+  <data name="InvalidDataTypeForOracleLob" xml:space="preserve"><value>Invalid data type for OracleLob object.</value></data>
+  <data name="TypeNameNotDef" xml:space="preserve"><value>Type name must be defined.</value></data>
+  <data name="DbConnectionString_UserId" xml:space="preserve"><value>The Oracle login account.</value></data>
+  <data name="ArrayTypeCodeNotSuppotred" xml:space="preserve"><value>Array with items with TypeCode {0} not suppotred.</value></data>
+  <data name="DbConnectionString_Port" xml:space="preserve"><value>The number of port that Oracle server listens.</value></data>
+  <data name="DbConnectionString_Home" xml:space="preserve"><value>The Oracle home name.</value></data>
+  <data name="CanNotLoadOciFromHome" xml:space="preserve"><value>Can not load Oracle client library oci.dll from home</value></data>
+  <data name="DayIsOutOfRange" xml:space="preserve"><value>Day is out of range.</value></data>
+  <data name="DbConnectionString_OraMts" xml:space="preserve"><value>If set to True, Oracle Services for Microsoft Transaction Server (OraMTS) is used for distributed transactions; otherwise OraMTS is not used.</value></data>
+  <data name="QueueTableOptions_Compatible" xml:space="preserve"><value>The lowest database version with which the queue is compatible.</value></data>
+  <data name="DbConnectionString_Sid" xml:space="preserve"><value>The system identifier that specifies instance name.</value></data>
+  <data name="OracleLoader_Columns" xml:space="preserve"><value>Collection of columns that loaded table consist of.</value></data>
+  <data name="MessageProperties_DeliveryMode" xml:space="preserve"><value>Delivery mode of the messages.</value></data>
+  <data name="OciNotInitialized" xml:space="preserve"><value>OCI not initialized</value></data>
+  <data name="WrongParameterSize" xml:space="preserve"><value>Wrong parameter size</value></data>
+  <data name="NETConnectionWasRefusedWithError" xml:space="preserve"><value>NET: Connection was refused with error {0}</value></data>
+  <data name="ColumnWithIndexDoesNotExist" xml:space="preserve"><value>Column with index {0} does not exist.</value></data>
+  <data name="DbConnectionString_OciSessionPoolUserId" xml:space="preserve"><value>The proxy username.</value></data>
+  <data name="CanNotChangeBFILELength" xml:space="preserve"><value>Can not change BFILE length.</value></data>
+  <data name="DbConnectionString_StatementCacheSize" xml:space="preserve"><value>The size of OCI statement cache</value></data>
+  <data name="CanNotCopyToNULLBFILE" xml:space="preserve"><value>Can not copy to NULL destination BFILE.</value></data>
+  <data name="QueueTableOptions_PrimaryInstance" xml:space="preserve"><value>The primary owner of the queue table.</value></data>
+  <data name="OracleAlerter_Active" xml:space="preserve"><value>Indicates whether OracleAlerter waits for messages or not.</value></data>
+  <data name="CanNotLoadOracleClient" xml:space="preserve"><value>Can not load Oracle client. Check your PATH environment variable and registry settings.</value></data>
+  <data name="MessageProperties_Expiration" xml:space="preserve"><value>Specifies the expiration of the message.</value></data>
+  <data name="NETConnectionWasRefused" xml:space="preserve"><value>NET: Connection was refused</value></data>
+  <data name="OracleDataTable_ReadLobMode" xml:space="preserve"><value>Determines how LOB data is fetched and represented.</value></data>
+  <data name="ParameterValueIsNull" xml:space="preserve"><value>Parameter value is null.</value></data>
+  <data name="QueueAdmin_Connection" xml:space="preserve"><value>An OracleConnection that represents the connection to an instance of Oracle server.</value></data>
+  <data name="EnqueueOptions_DeliveryMode" xml:space="preserve"><value>The enqueuer specifies the delivery mode of the messages it wishes to enqueue in the enqueue options.</value></data>
+  <data name="OraclePipe_PipeName" xml:space="preserve"><value>Name of the pipe on which you want to place the message.</value></data>
+  <data name="VarNameNotDef" xml:space="preserve"><value>Variable name must be defined.</value></data>
+  <data name="ObjectDoesNotExist" xml:space="preserve"><value>Object {0} does not exist.</value></data>
+  <data name="MessageProperties_ExceptionQueue" xml:space="preserve"><value>Gets or sets the name of the queue into which the message is moved if it cannot be processed successfully.</value></data>
+  <data name="EnqueueOptions_Visibility" xml:space="preserve"><value>Gets or sets the transactional behavior of the enqueue request.</value></data>
+  <data name="CanNotConvert" xml:space="preserve"><value>Can not convert.</value></data>
+  <data name="TableOfRecordIsNotSupported" xml:space="preserve"><value>Parameters of "table of record" type are not supported</value></data>
+  <data name="LengthNotNegative" xml:space="preserve"><value>Length can not be negative.</value></data>
+  <data name="QueueAdmin_QueueTableName" xml:space="preserve"><value>The name of the queue table, to which the queue belongs.</value></data>
+  <data name="EnqueueOptions_SequenceDeviation" xml:space="preserve"><value>Specifies whether the message being enqueued should be dequeued before other messages already in the queue.</value></data>
+  <data name="OracleConnection_Error" xml:space="preserve"><value>Event triggered when Oracle returns an error message.</value></data>
+  <data name="DbConnectionString_Direct" xml:space="preserve"><value>Specifies whether Oracle client is used.</value></data>
+  <data name="OraclePipe_Connection" xml:space="preserve"><value>Connection used by the OracleTrace.</value></data>
+  <data name="NETUnknownError" xml:space="preserve"><value>NET: Unknown error</value></data>
+  <data name="OracleCommand_Cached" xml:space="preserve"><value>Indicates whether Oracle resources assosiated with current statement will be cached inside session. Oracle 10g only.</value></data>
+  <data name="OracleLoader_BatchSize" xml:space="preserve"><value>Number of rows that are processed in each round-trip to the server.</value></data>
+  <data name="DbConnectionString_Enlist" xml:space="preserve"><value>When true, the pooler automatically enlists the connection in the creation thread's current transaction context.</value></data>
+  <data name="QueueTable_QueueTableName" xml:space="preserve"><value>Queue table name.</value></data>
+  <data name="QueueTable_Description" xml:space="preserve"><value>Represent queue table for messages of a predefined type.</value></data>
+  <data name="BufferOffsetNotNegative" xml:space="preserve"><value>Buffer offset can not be negative.</value></data>
+  <data name="OracleLoader_Error" xml:space="preserve"><value>Event triggered when an error occurs during a load operation.</value></data>
+  <data name="InvalidConnectMode" xml:space="preserve"><value>Invalid connect mode.</value></data>
+  <data name="OracleAlerter_AlertName" xml:space="preserve"><value>Name of alert that is waiting.</value></data>
+  <data name="DequeueOptions_Visibility" xml:space="preserve"><value>Specifies whether the new message is dequeued as part of the current transaction.</value></data>
+  <data name="CallOpenFirst" xml:space="preserve"><value>You must call Open() method first.</value></data>
+  <data name="ItersLess65535" xml:space="preserve"><value>Iters must be less than 65535.</value></data>
+  <data name="MinuteIsOutOfRange" xml:space="preserve"><value>Minute is out of range.</value></data>
+  <data name="OracleCommand_PassParametersByName" xml:space="preserve"><value>Pass parameters by name to the stored procedure calls.</value></data>
+  <data name="ValueWasLargeOrSmallForInt64" xml:space="preserve"><value>Value was either too large or too small for an Int64.</value></data>
+  <data name="ValueWasLargeOrSmallForInt32" xml:space="preserve"><value>Value was either too large or too small for an Int32.</value></data>
+  <data name="DequeueOptions_WaitTime" xml:space="preserve"><value>Gets or sets the wait time in seconds if there is currently no message available which matches the search criteria.</value></data>
+  <data name="Queue_EnqueueMessageProperties" xml:space="preserve"><value>Message properties used by default when inserting messages into queues.</value></data>
+  <data name="QueueOptions_Comment" xml:space="preserve"><value>User-specified description of the queue.</value></data>
+  <data name="OracleAlerter_Error" xml:space="preserve"><value>Event triggered when Oracle returns an error message.</value></data>
+  <data name="OracleAlerter_Alert" xml:space="preserve"><value>Event triggered when waiting process receives some message.</value></data>
+  <data name="DbConnectionString_TrimFixedChar" xml:space="preserve"><value>Specifies whether to trim trailing spaces when reading data from fixed-length string data types (CHAR, NCHAR).</value></data>
+  <data name="TableNamePropertyNotInited" xml:space="preserve"><value>TableName property was not inited.</value></data>
+  <data name="OracleConnection_AutoCommit" xml:space="preserve"><value>Determines whether modifications will be commited automatically at the server or not.</value></data>
+  <data name="ORA12571" xml:space="preserve"><value>ORA-12571: TNS:packet writer failure</value></data>
+  <data name="ORA12541" xml:space="preserve"><value>ORA-12541: TNS:no listener</value></data>
+  <data name="ORA12545" xml:space="preserve"><value>ORA-12545: Connect failed because target host or object does not exist</value></data>
+  <data name="ORA01843" xml:space="preserve"><value>ORA-01843: not a valid month</value></data>
+  <data name="ORA01867" xml:space="preserve"><value>ORA-01867: the interval is invalid.</value></data>
+  <data name="ORA01851" xml:space="preserve"><value>ORA-01851: minutes must be between 0 and 59</value></data>
+  <data name="ORA01850" xml:space="preserve"><value>ORA-01850: hour must be between 0 and 23</value></data>
+  <data name="ORA01852" xml:space="preserve"><value>ORA-01852: seconds must be between 0 and 59</value></data>
+  <data name="ORA01873" xml:space="preserve"><value>ORA-01873: the leading pricision of interval is too small</value></data>
+  <data name="ORA01870" xml:space="preserve"><value>ORA-01870: the intervals or datetimes are not mutually comparable</value></data>
+  <data name="ORA03134" xml:space="preserve"><value>ORA-03134: Connections to this server are no longer supported</value></data>
+  <data name="ORA03113" xml:space="preserve"><value>ORA-03113: end-of-file on communication channel</value></data>
+  <data name="ORA03114" xml:space="preserve"><value>ORA-03114: not connected to ORACLE</value></data>
+  <data name="ORA24344" xml:space="preserve"><value>ORA-24344: success with compilation error</value></data>
+  <data name="ORA24338" xml:space="preserve"><value>ORA-24338 statement handle not executed</value></data>
+  <data name="MessageProperties_Sender" xml:space="preserve"><value>The application-sender identification specified at enqueue time by the message producer.</value></data>
+  <data name="OracleTrace_Connection" xml:space="preserve"><value>Connection used by the OracleTrace.</value></data>
+  <data name="OracleConnection_Port" xml:space="preserve"><value>The number of port that Oracle server listens.</value></data>
+  <data name="OracleConnection_Home" xml:space="preserve"><value>The Oracle home name.</value></data>
+  <data name="OracleTrace_Enabled" xml:space="preserve"><value>Gets or sets a value that indicates whether tracing is enabled.</value></data>
+  <data name="DataTypeDoesNotSupportedByOracleLoader" xml:space="preserve"><value>Table contains field with data type that does not supported by OracleLoader.</value></data>
+  <data name="OracleTrace_MaxTraceFileSize" xml:space="preserve"><value>Gets or sets the maximum size of SQL trace dump file.</value></data>
+  <data name="OracleConnection_ConnectionString" xml:space="preserve"><value>Information used to connect to an Oracle server, such as User Id=x;Password=x;Source=x.</value></data>
+  <data name="QueueTableOptions_StorageClause" xml:space="preserve"><value>Storage parameter.</value></data>
+  <data name="OracleConnection_ServerVersion" xml:space="preserve"><value>The version of the instance of Oracle server to which the client is connected.</value></data>
+  <data name="MonthIsOutOfRange" xml:space="preserve"><value>Month is out of range.</value></data>
+  <data name="HourIsOutOfRange" xml:space="preserve"><value>Hour is out of range.</value></data>
+  <data name="TransactionIsolationLevelNotSupported" xml:space="preserve"><value>Transaction isolation level {0} not supported.</value></data>
+  <data name="OciNoData" xml:space="preserve"><value>ORA-01403: no data found.</value></data>
+  <data name="SecondIsOutOfRange" xml:space="preserve"><value>Second is out of range.</value></data>
+  <data name="OracleAlerter_Description" xml:space="preserve"><value>Transfers messages between connections or client applications.</value></data>
+  <data name="UnsupportedDataType" xml:space="preserve"><value>ORA-03115 unsupported network datatype or representation</value></data>
+  <data name="Queue_Description" xml:space="preserve"><value>Represents Oracle Streams Advanced Queuing (AQ).</value></data>
+  <data name="CanNotSeekBeyondLOBLength" xml:space="preserve"><value>Can not seek beyond LOB length.</value></data>
+  <data name="DbConnectionString_OciSessionPoolPassword" xml:space="preserve"><value>The proxy password.</value></data>
+  <data name="ArgumentItersMustBeEqualToArrayLength" xml:space="preserve"><value>Argument 'Iters' must be equal to ArrayLength.</value></data>
+  <data name="DbConnectionString_ConnectMode" xml:space="preserve"><value>Allows to open a session with administrative privileges SYSDBA or SYSOPER.</value></data>
+  <data name="CommandBuilder_DataAdapter" xml:space="preserve"><value>OracleDataAdapter object for which this OracleCommandBuilder object will generate SQL statements.</value></data>
+  <data name="NetUnsupportedDataType" xml:space="preserve"><value>ORA-03115 unsupported network datatype or representation</value></data>
+  <data name="MessageProperties_RecipientList" xml:space="preserve"><value>This parameter is only valid for queues that allow multiple consumers.</value></data>
+  <data name="DbConnectionString_LobBlockSize" xml:space="preserve"><value>Determines the size of a block (in megabytes) to read/write CLOB or NCLOB data from/to database. This option is supported in OCI mode only. Applicable only for Unicode Oracle servers. Default value is 0, which means that the whole value is sent in one block.</value></data>
+  <data name="DbConnectionString_DefaultCommandTimeout" xml:space="preserve"><value>The default value of the CommandTimeout property for OracleCommands that use this connection. CommandTimeout specifies the time to wait for the server responce when executing a command.</value></data>
+  <data name="DbConnectionString_OciSessionPoolAllowWaiting" xml:space="preserve"><value>Determines the behavior of OCI session pool when all sessions are busy and the maximum number of sessions is reached.</value></data>
+  <data name="NETInvalidSID" xml:space="preserve"><value>NET: Invalid SID</value></data>
+  <data name="YouMustSetupNamePasswordServer" xml:space="preserve"><value>You must setup user name, password and server name to change password.</value></data>
+  <data name="Queue_QueueName" xml:space="preserve"><value>The name of the queue.</value></data>
+  <data name="QueueAdmin_QueueName" xml:space="preserve"><value>The name of the source queue.</value></data>
+  <data name="QueueTableOptions_MultipleConsumers" xml:space="preserve"><value>If queues created in the table can have multiple consumers for each message.</value></data>
+  <data name="MessageProperties_Delay" xml:space="preserve"><value>Specifies the delay of the enqueued message.</value></data>
+  <data name="OraclePackage_Description" xml:space="preserve"><value>Provides access to packages stored in Oracle database.</value></data>
+  <data name="ValueCannotBeNull" xml:space="preserve"><value>Value cannot be null</value></data>
+  <data name="QueueOptions_QueueType" xml:space="preserve"><value>The type of the queue. By default OracleQueueType.Normal.</value></data>
+  <data name="OracleCommand_DmlArrayCount" xml:space="preserve"><value>Number of times to execute SQL statement.</value></data>
+  <data name="CanNotOpenNULLLOB" xml:space="preserve"><value>Can not open NULL LOB.</value></data>
+  <data name="CanNotConvertValueToColumnDataType" xml:space="preserve"><value>Can not convert value to column data type.</value></data>
+  <data name="BufferOffcanNotBeGreaterBufferLength" xml:space="preserve"><value>Buffer offset with count can not be greater than buffer length.</value></data>
+  <data name="WrongTypeArgument" xml:space="preserve"><value>Wrong type of argument.</value></data>
+  <data name="QueueTableOptions_MessageGrouping" xml:space="preserve"><value>Message grouping behavior for queues created in the table.</value></data>
+  <data name="QueueTableOptions_SecondaryInstance" xml:space="preserve"><value>The queue table fails over to the secondary instance if the primary instance is not available.</value></data>
+  <data name="OracleLoader_TableName" xml:space="preserve"><value>Name of table that will be loaded.</value></data>
+  <data name="InternalOracleClientError" xml:space="preserve"><value>Internal exception in Oracle client occurred.</value></data>
+  <data name="OracleTrace_PlSqlTraceMode" xml:space="preserve"><value>Gets or sets the trace mode for the PL/SQL trace.</value></data>
+  <data name="CanNotEraseFromNULLLOB" xml:space="preserve"><value>Can not erase from NULL LOB.</value></data>
+  <data name="OraclePipe_MaxPipeSize" xml:space="preserve"><value>Maximum size allowed for the pipe, in bytes.</value></data>
+  <data name="QueueTable_Options" xml:space="preserve"><value>Queue table options.</value></data>
+  <data name="ParameterValueTypeNotArray" xml:space="preserve"><value>Parameter value type is not an array.</value></data>
+  <data name="NETInvalidServiceName" xml:space="preserve"><value>NET: Invalid Service Name</value></data>
+  <data name="OraclePipe_Description" xml:space="preserve"><value>Transfers data between connections or client applications.</value></data>
+  <data name="DbConnectionString_OciSessionPoolIncrement" xml:space="preserve"><value>Amount of sessions to create when all sessions are in use.</value></data>
+  <data name="DequeueOptions_Correlation" xml:space="preserve"><value>Specifies the correlation identifier of the message to be dequeued.</value></data>
+  <data name="OraclePipe_ReceiveTimeout" xml:space="preserve"><value>Time to wait for a message, in seconds.</value></data>
+  <data name="OracleDataTable_SplitObjects" xml:space="preserve"><value>Determines how attributes of Oracle objects are stored and represented in DataSet.</value></data>
+  <data name="CannotReceiveRecordType" xml:space="preserve"><value>Cannot receive record type.</value></data>
+  <data name="DbConnectionString_OciSessionPoolConnectionLifetime" xml:space="preserve"><value>Time interval (in seconds) during which session is kept alive in the OCI session pool.</value></data>
+  <data name="OracleScript_ScriptText" xml:space="preserve"><value>String containing sequence of statements separated by semicolon or slash '/' symbol.</value></data>
+  <data name="EnqueueOptions_Transformation" xml:space="preserve"><value>Gets or sets the transformation that will be applied before enqueuing the message.</value></data>
+  <data name="PackgeNameNotInit" xml:space="preserve"><value>Package name is not specified.</value></data>
+  <data name="OraclePackage_PackageName" xml:space="preserve"><value>Oracle package name where procedures or variables exist.</value></data>
+  <data name="OracleDataTable_ObjectView" xml:space="preserve"><value>Indicates how Oracle objects are represented in DataSet and visual grids.</value></data>
+  <data name="ParamValueTooLong" xml:space="preserve"><value>Value length exceeds the parameter size</value></data>
+  <data name="OracleCommand_FetchSize" xml:space="preserve"><value>The number of rows that will be transferred across the network at the same time.</value></data>
+  <data name="OracleConnection_Server" xml:space="preserve"><value>The name of TNS alias of the Oracle database to which to connect.</value></data>
+  <data name="NeedOCI9Interface" xml:space="preserve"><value>Need OCI 9i interface.</value></data>
+  <data name="NETInternalError" xml:space="preserve"><value>NET: Internal error!</value></data>
+  <data name="OracleCommand_Description" xml:space="preserve"><value>Executes a SQL or PL/SQL statements and stored procedures at Oracle database, and exposes parameters.</value></data>
+  <data name="DequeueOptions_DeliveryMode" xml:space="preserve"><value>The dequeuer specifies the delivery mode of the messages it wishes to dequeue in the dequeue options.</value></data>
+  <data name="DequeueOptions_Navigation" xml:space="preserve"><value>Specifies the position of the message that will be retrieved.</value></data>
+  <data name="OracleAlerter_WaitTimeout" xml:space="preserve"><value>Event triggered when there were no messages during Timeout time.</value></data>
+  <data name="DequeueOptions_Transformation" xml:space="preserve"><value>Gets or sets the transformation that will be applied after dequeuing the message.</value></data>
+  <data name="DbConnectionString_OciSessionPoolMaxSize" xml:space="preserve"><value>The maximum number of sessions allowed in the OCI session pool. </value></data>
+  <data name="ArrayLengthCanNotBeLess0" xml:space="preserve"><value>Array parameter length can not be less than zero.</value></data>
+  <data name="OracleConnection_ClientId" xml:space="preserve"><value>The client identifier in the Oracle Global Application Context.</value></data>
+  <data name="ObjectTypeNameMustBeSpecified" xml:space="preserve"><value>ObjectTypeName must be specified.</value></data>
+  <data name="OracleConnection_Description" xml:space="preserve"><value>Establishes a connection to Oracle database and begins a transaction.</value></data>
+  <data name="DbConnectionString_OciSessionPooling" xml:space="preserve"><value>If true, the session is drawn from the OCI session pool.</value></data>
+  <data name="QueueTableOptions_Secure" xml:space="preserve"><value>Use the queue table for secure queues.</value></data>
+  <data name="OracleConnection_InfoMessage" xml:space="preserve"><value>Event triggered when Oracle server returns a warning or informational message.</value></data>
+  <data name="ValueLengthMustBe22" xml:space="preserve"><value>Value length must be 22 bytes.</value></data>
+  <data name="loaderErr" xml:space="preserve"><value>Loader error: row {0}, col {1}.</value></data>
+  <data name="DequeueOptions_DequeueMode" xml:space="preserve"><value>Specifies the locking behavior associated with the dequeue.</value></data>
+  <data name="Queue_PayloadTypeName" xml:space="preserve"><value>Object type name or 'RAW'.</value></data>
+  <data name="QueueOptions_MaxRetries" xml:space="preserve"><value>Limits the number of times a dequeue with the OracleQueueDequeueMode.Remove mode can be attempted on a message.</value></data>
+  <data name="OracleAlerter_Connection" xml:space="preserve"><value>Connection used by the OracleAlerter.</value></data>
+  <data name="OraclePipe_SendTimeout" xml:space="preserve"><value>Time to wait while attempting to place a message on a pipe, in seconds.</value></data>
+  <data name="DbConnectionString_ServiceName" xml:space="preserve"><value>The system identifier that specifies service name.</value></data>
+  <data name="DbConnectionString_Password" xml:space="preserve"><value>The password for the Oracle login account.</value></data>
+  <data name="YouCallMethodWhenOCILoaded" xml:space="preserve"><value>You can call this method only when OCI is loaded. Open a connection in OCI (not Direct) mode before calling this method.</value></data>
+  <data name="CanNotChangeNULLLOBLength" xml:space="preserve"><value>Can not change NULL LOB length.</value></data>
+  <data name="OracleTrace_SqlTraceMode" xml:space="preserve"><value>Gets or sets the trace mode for the SQL trace.</value></data>
+  <data name="ItersGreater1" xml:space="preserve"><value>Iters must be greater than one.</value></data>
+  <data name="NanosecondIsOutOfRange" xml:space="preserve"><value>Nanosecond is out of range.</value></data>
+  </root>

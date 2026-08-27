@@ -1,0 +1,35 @@
+namespace Devart.Data.Oracle;
+
+public enum OracleDbType
+{
+	Array = 1,
+	BFile,
+	Blob,
+	Boolean,
+	Char,
+	Clob,
+	Cursor,
+	Date,
+	Double,
+	Float,
+	Integer,
+	IntervalDS,
+	IntervalYM,
+	Long,
+	LongRaw,
+	NChar,
+	NClob,
+	NVarChar,
+	Number,
+	Object,
+	Ref,
+	Raw,
+	RowId,
+	Table,
+	TimeStamp,
+	TimeStampLTZ,
+	TimeStampTZ,
+	VarChar,
+	Xml,
+	AnyData
+}
