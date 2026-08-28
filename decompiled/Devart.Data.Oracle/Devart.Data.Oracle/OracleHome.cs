@@ -34,6 +34,39 @@ public sealed class OracleHome
 
 	private static readonly Hashtable h = new Hashtable();
 
+	// Ensure we can set DLL search directory so that oci.dll and its dependencies can be found
+	[DllImport("kernel32.dll", SetLastError = true, CharSet = CharSet.Unicode)]
+	private static extern bool SetDllDirectory(string lpPathName);
+
+	// Try to open ORACLE registry key preferring the 64-bit view first, then 32-bit, then fallback
+	private static RegistryKey OpenOracleRegistryKey()
+	{
+		try
+		{
+			RegistryKey key64 = RegistryKey.OpenBaseKey(RegistryHive.LocalMachine, RegistryView.Registry64)
+					.OpenSubKey("SOFTWARE\\ORACLE");
+			if (key64 != null) return key64;
+		}
+		catch
+		{
+			// ignore and try 32-bit view
+		}
+
+		try
+		{
+			RegistryKey key32 = RegistryKey.OpenBaseKey(RegistryHive.LocalMachine, RegistryView.Registry32)
+					.OpenSubKey("SOFTWARE\\ORACLE");
+			if (key32 != null) return key32;
+		}
+		catch
+		{
+			// ignore
+		}
+
+		// fallback for older platforms / partial trust
+		return Registry.LocalMachine.OpenSubKey("SOFTWARE\\ORACLE");
+	}
+
 	public string Name => this.m_b;
 
 	public string NlsLang => c;
@@ -151,7 +184,7 @@ public sealed class OracleHome
 			text = ((hours >= 0 && (hours != 0 || minutes >= 0)) ? (text + "+") : (text + "-"));
 			text = text + Math.Abs(hours).ToString("00") + ":" + Math.Abs(minutes).ToString("00");
 			this.m_a.TimeZone = text;
-			RegistryKey registryKey = Registry.LocalMachine.OpenSubKey("SOFTWARE\\ORACLE");
+			RegistryKey registryKey = OpenOracleRegistryKey();
 			if (registryKey != null)
 			{
 				string[] subKeyNames = registryKey.GetSubKeyNames();
@@ -493,6 +526,20 @@ public sealed class OracleHome
 		{
 			text = "";
 		}
+
+		// Ensure the oci.dll directory is in the process DLL search path so dependent native DLLs can be resolved
+		try
+		{
+			if (!string.IsNullOrEmpty(text))
+			{
+				SetDllDirectory(text);
+			}
+		}
+		catch
+		{
+			// Non-fatal: if we cannot set the DLL directory, the original behavior will still be attempted
+		}
+
 		Dictionary<string, string> dictionary = new Dictionary<string, string>(4);
 		MethodInfo[] methods = typeFromHandle.GetMethods(BindingFlags.Instance | BindingFlags.NonPublic | BindingFlags.InvokeMethod);
 		foreach (MethodInfo methodInfo in methods)
@@ -546,9 +593,9 @@ public sealed class OracleHome
 			{
 				array[num2] = parameters[num2].ParameterType;
 			}
-			MethodBuilder methodBuilder = typeBuilder.DefinePInvokeMethod("native" + methodInfo.Name, text2, entryName, MethodAttributes.Public | MethodAttributes.Static | MethodAttributes.HideBySig, CallingConventions.Standard, methodInfo.ReturnType, array, CallingConvention.Cdecl, CharSet.None);
+			MethodBuilder methodBuilder = typeBuilder.DefinePInvokeMethod("native" + methodInfo.Name, text2, entryName, MethodAttributes.Public | MethodAttributes.Static | MethodAttributes.HideBySig, Call[...]
 			methodBuilder.SetCustomAttribute(con, new byte[0]);
-			MethodBuilder methodBuilder2 = typeBuilder.DefineMethod(methodInfo.Name, MethodAttributes.Public | MethodAttributes.Virtual | MethodAttributes.HideBySig, methodInfo.CallingConvention, methodInfo.ReturnType, array);
+			MethodBuilder methodBuilder2 = typeBuilder.DefineMethod(methodInfo.Name, MethodAttributes.Public | MethodAttributes.Virtual | MethodAttributes.HideBySig, methodInfo.CallingConvention, methodIn[...]
 			ILGenerator iLGenerator2 = methodBuilder2.GetILGenerator();
 			for (int num3 = 0; num3 < parameters.Length; num3++)
 			{
