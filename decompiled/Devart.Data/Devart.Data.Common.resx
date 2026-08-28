@@ -1,0 +1,316 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="DbDataParameter_IsNullable" xml:space="preserve"><value>Indicates whether the parameter accepts null values.</value></data>
+  <data name="PooledOpenTimeout" xml:space="preserve"><value>Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.</value></data>
+  <data name="YouMustSetupDumpTextProperty" xml:space="preserve"><value>You must setup DumpText property.</value></data>
+  <data name="DbDataAdapter_DeleteCommand" xml:space="preserve"><value>Used during Update for deleted rows in DataSet.</value></data>
+  <data name="IdentifierIsNotQuoted" xml:space="preserve"><value>Identifier is not quoted.</value></data>
+  <data name="AdapterNotInited" xml:space="preserve"><value>DataAdapter property was not initialized.</value></data>
+  <data name="ConvertFailed" xml:space="preserve"><value>Cannot convert object of type '{0}' to object of type '{1}'.</value></data>
+  <data name="NonSeqByteAccess" xml:space="preserve"><value>Invalid attempt at dataIndex '{0}'.  With CommandBehavior.SequentialAccess, you may only read from dataIndex '{1}' or greater.</value></data>
+  <data name="UnpooledObjectHasWrongOwner" xml:space="preserve"><value>Unpooled object has a wrong owner.</value></data>
+  <data name="DbCommand_CommandTimeout" xml:space="preserve"><value>Time to wait for command to execute.</value></data>
+  <data name="DbMonitor_Port" xml:space="preserve"><value>Port of the dbMonitor application to which to connect, 1000 by default.</value></data>
+  <data name="DbMonitor_Host" xml:space="preserve"><value>Host where the dbMonitor application is running, 'localhost' by default.</value></data>
+  <data name="DbDataTable_ParentRelation" xml:space="preserve"><value>Describes parent/child relation.</value></data>
+  <data name="ParamNameMissing" xml:space="preserve"><value>Parameter name missing</value></data>
+  <data name="InvalidUpdateRowSource" xml:space="preserve"><value>The UpdateRowSource enumeration value, {0}, is invalid.</value></data>
+  <data name="DbLoader_Description" xml:space="preserve"><value>Serves to load external data into a database.</value></data>
+  <data name="DbTable_NonBlocking" xml:space="preserve"><value>Indicates whether data fetch is performed synchronously or asynchronously.</value></data>
+  <data name="SshOptions_PrivateKey" xml:space="preserve"><value>Gets or sets the location of the client private key.</value></data>
+  <data name="DbLoader_CallOpenFirst" xml:space="preserve"><value>You must call Open() method first.</value></data>
+  <data name="DbDataParamter_DbType" xml:space="preserve"><value>The DbType of the parameter.</value></data>
+  <data name="DbConnectionString_HttpContentLength" xml:space="preserve"><value>content length</value></data>
+  <data name="InvalidBufferSizeOrIndex" xml:space="preserve"><value>Buffer offset '{1}' plus the bytes available '{0}' is greater than the length of the passed in buffer.</value></data>
+  <data name="DbLoader_ConnectionWasNotOpened" xml:space="preserve"><value>Connection was not opened.</value></data>
+  <data name="UnpooledObjectHasOwner" xml:space="preserve"><value>Unpooled object has an owner.</value></data>
+  <data name="RequestedCollectionNotDefined" xml:space="preserve"><value>Requested collection not defined.</value></data>
+  <data name="SelectCommandNotDefined" xml:space="preserve"><value>SelectCommand is not defined.</value></data>
+  <data name="DbConnectionString_ConnectionTimeout" xml:space="preserve"><value>Time (in seconds) to wait for a connection to the server before terminating the attempt and generating an error.</value></data>
+  <data name="DbCommand_Description" xml:space="preserve"><value>Represents a SQL statement that is executed while connected to a data source.</value></data>
+  <data name="HttpOptions_StrictContentLength" xml:space="preserve"><value>Enables data padding if message size is smaller than ContentLength, 'HTTP Strict Content Length=X' in the connection string. This property is obsolete.</value></data>
+  <data name="OutParameterValueMissing" xml:space="preserve"><value>The value for the output parameter '{0}' is absent in the command execution result.</value></data>
+  <data name="DbDataTable_QueryRecordCount" xml:space="preserve"><value>Indicates that data table performes additional query to get record count for SELECT statement.</value></data>
+  <data name="ParametersUniqueName" xml:space="preserve"><value>The name of parameter is required to be unique, '{0}' already exists in the collection.</value></data>
+  <data name="DbDump_DumpText" xml:space="preserve"><value>SQL script that consists of database content.</value></data>
+  <data name="DbTable_MaxRecords" xml:space="preserve"><value>Max number of records to fetch starting from StartRecord.</value></data>
+  <data name="DbLoader_ColunmNameNull" xml:space="preserve"><value>Column name is null.</value></data>
+  <data name="SshOptions_HostKey" xml:space="preserve"><value>Gets or sets the location of the public key on the client side to verify the server host key during establishing connection.</value></data>
+  <data name="DbDataSet_RomotingFormat" xml:space="preserve"><value>Determines the serialization format for a DataSet.</value></data>
+  <data name="DbCommandBuilder_DataAdapter" xml:space="preserve"><value>The DataAdapter for which to automatically generate update commands</value></data>
+  <data name="DbException" xml:space="preserve"><value>External component has thrown an exception.</value></data>
+  <data name="ParametersRemoveInvalidObject" xml:space="preserve"><value>Attempted to remove a parameter that is not contained by this Parameters collection.</value></data>
+  <data name="ReaderNotClosed" xml:space="preserve"><value>There is already an open DataReader associated with this Command which must be closed first.</value></data>
+  <data name="ReadFromStreamFailed" xml:space="preserve"><value>Reading from the stream has failed.</value></data>
+  <data name="HttpOptions_KeepAliveInt" xml:space="preserve"><value>Timeout in seconds to send Keep-Alive HTTP packets, 'HTTP Keep Alive=X' in the connection string.</value></data>
+  <data name="DbConnection_User" xml:space="preserve"><value>The name of user to connect.</value></data>
+  <data name="DbScript_Error" xml:space="preserve"><value>Event triggered when any SQL statement within the script was executed with an error.</value></data>
+  <data name="SchemaSeparatorNotSupported" xml:space="preserve"><value>SchemaSeparator not supported.</value></data>
+  <data name="DbCommandBuilder_CatalogSeparator" xml:space="preserve"><value>Separator string to be used when referencing a schema.</value></data>
+  <data name="DbCommandBuilder_KeyFields" xml:space="preserve"><value>List of key field names used to generate update commands, separated by a semicolon.</value></data>
+  <data name="CommandTextRequired" xml:space="preserve"><value>CommandText property has not been initialized.</value></data>
+  <data name="DbTable_CachedUpdates" xml:space="preserve"><value>Indicates whether changes are posted to server immediately.</value></data>
+  <data name="ParameterValueMissing" xml:space="preserve"><value>{0} parameter value is missing.</value></data>
+  <data name="DbDataTable_UpdatingFields" xml:space="preserve"><value>Gets or sets string containing list of field names used to generate update commands.</value></data>
+  <data name="DbDataAdapter_SelectCommand" xml:space="preserve"><value>Used during Fill/FillSchema.</value></data>
+  <data name="DbDataAdapter_UpdateCommand" xml:space="preserve"><value>Used during Update for modified rows in DataSet.</value></data>
+  <data name="HttpOptions_Url" xml:space="preserve"><value>The URL of the HTTP tunneling PHP script, for example, http://localhost/tunnel.php, 'HTTP Url=X' in the connection string.</value></data>
+  <data name="ExecutionInProgress" xml:space="preserve"><value>Cannot execute command while current execution not canceled.</value></data>
+  <data name="InternalConnectionWithoutProxy" xml:space="preserve"><value>InternalConnection without proxy.</value></data>
+  <data name="ConnectionNotInit" xml:space="preserve"><value>Connection property has not been initialized.</value></data>
+  <data name="SslOptions_CipherList" xml:space="preserve"><value>Gets or sets list of ciphers that client agrees to use.</value></data>
+  <data name="DbLoader_ColunmWithNameDoesNotExist" xml:space="preserve"><value>Column with name {0} does not exist.</value></data>
+  <data name="InvalidDataRowVersion" xml:space="preserve"><value>The DataRowVersion enumeration value, {0}, is invalid.</value></data>
+  <data name="InvalidSshAuthenticationType" xml:space="preserve"><value>Invalid value for the ssh authentication type parameter in the connection string. Must be of the password or publickey value.</value></data>
+  <data name="UnknownType" xml:space="preserve"><value>Unknown type.</value></data>
+  <data name="InvalidConnectionString" xml:space="preserve"><value>Invalid connection string.</value></data>
+  <data name="SslOptions_CACert" xml:space="preserve"><value>Gets or sets location of authority certificate.</value></data>
+  <data name="DbConnectionString_PolicyProtocol" xml:space="preserve"><value>Specifies the method to download the policy file.</value></data>
+  <data name="DbCommandBuilder_Quoted" xml:space="preserve"><value>Indicates whether the command builder quotes all the names of database objects.</value></data>
+  <data name="SelectStatement_ColumnListError" xml:space="preserve"><value>Error occurred while parsing columns list: comma or FROM keyword expected.</value></data>
+  <data name="DbConnection_Notification" xml:space="preserve"><value>Event triggered when notification messages arrive from the DataSource.</value></data>
+  <data name="DynamicSqlGenerationNotSupp" xml:space="preserve"><value>Dynamic SQL generation is not supported against a SelectCommand that does not return any key column information.</value></data>
+  <data name="DbDump_QuoteIdentifier" xml:space="preserve"><value>Quote all identifiers when dump database.</value></data>
+  <data name="DbMonitor_TraceEvent" xml:space="preserve"><value>Event triggered every time the monitor traces database event.</value></data>
+  <data name="DbCommandBuilder_QuoteSuffix" xml:space="preserve"><value>The character used in a text command as the closing quote for quoting identifiers that contain special characters. </value></data>
+  <data name="HttpOptions_Port" xml:space="preserve"><value>The port of http tunnel server to which to connect, 'HTTP Port=X' in the connection string. This property is obsolete. Use HTTP script tunnelling and 'Url' property instead.</value></data>
+  <data name="HttpOptions_User" xml:space="preserve"><value>User name for the restricted Web site where the tunnelling script resides, 'HTTP User=X' in the connection string.</value></data>
+  <data name="HttpOptions_Host" xml:space="preserve"><value>The name or IP address of host of http tunnel server to which to connect, 'HTTP Host=X' in the connection string. This property is obsolete. Use HTTP script tunnelling and 'Url' property instead.</value></data>
+  <data name="DbCommandBuilder_UpdatingTable" xml:space="preserve"><value>Table name to generate update statements for.</value></data>
+  <data name="Timeout_Exception" xml:space="preserve"><value>Server did not respond within the specified timeout interval.</value></data>
+  <data name="HttpOptions_KeepAlive" xml:space="preserve"><value>Gets or sets a value that indicates whether to make a persistent connection to the Internet resource.</value></data>
+  <data name="ConnectionStringNotInitialized" xml:space="preserve"><value>ConnectionString property not initialized.</value></data>
+  <data name="MaxRecordsMustBeZero" xml:space="preserve"><value>MaxRecords must be 0.</value></data>
+  <data name="DbScript_Description" xml:space="preserve"><value>Serves to execute series of SQL statements separated by special symbols.</value></data>
+  <data name="HttpOptions_Base64" xml:space="preserve"><value>Gets and sets value that indicates whether to encode data to MIME base64 format before sending them with the POST Request. ('HTTP Base64' connection string parameter).</value></data>
+  <data name="DbLoader_ConnectionWasNotInitialized" xml:space="preserve"><value>Connection property was not initialized.</value></data>
+  <data name="DbConnection_StateChange" xml:space="preserve"><value>Event triggered when the connection changes its state.</value></data>
+  <data name="SslOptions_SSLMode" xml:space="preserve"><value>This option determines whether an SSL connection will be established the server and its priority.</value></data>
+  <data name="DbCommandBuilder_QuotePrefix" xml:space="preserve"><value>The character used in a text command as the opening quote for quoting identifiers that contain special characters.</value></data>
+  <data name="DbDataTable_Description" xml:space="preserve"><value>Represents a single object that provides all of the functionality needed to retrieve and manipulate data.</value></data>
+  <data name="InvalidChar" xml:space="preserve"><value>Invalid character in non-quoted parameter value</value></data>
+  <data name="ErrorRetrievingRecordCount" xml:space="preserve"><value>Error on retrieving record count.</value></data>
+  <data name="DelegatedTransactionPresent" xml:space="preserve"><value>Cannot enlist in the transaction because the connection is the primary connection for a delegated or promoted transaction.</value></data>
+  <data name="DbConnection_InfoMessage" xml:space="preserve"><value>Event triggered when notice messages arrive from the DataSource.</value></data>
+  <data name="RequestedValueNotFound" xml:space="preserve"><value>Requested value not found: '{0}'.</value></data>
+  <data name="DbCommand_ParameterCheck" xml:space="preserve"><value>Indicates whether the command object regenerates parameter objects if CommandText property is changed.</value></data>
+  <data name="DbConnectionString_Enlist" xml:space="preserve"><value>If true data provider automatically attempts to enlist the connection in current transaction context.</value></data>
+  <data name="DbDump_Tables" xml:space="preserve"><value>Tables that will be dumped. Other tables will be ignored.</value></data>
+  <data name="DbLoader_TableName" xml:space="preserve"><value>The table name that will be loaded.</value></data>
+  <data name="DbCommandBuilder_UseSchema" xml:space="preserve"><value>Specifies whether schema identifier is included in database objects names.</value></data>
+  <data name="DbDataSet_Description" xml:space="preserve"><value>Represents an in-memory cache of data with connected model support.</value></data>
+  <data name="ParametersIsParent" xml:space="preserve"><value>The parameter with name '{0}' is already contained by this Parameters collection.</value></data>
+  <data name="DbCommandBuilder_UseCatalog" xml:space="preserve"><value>Specifies whether catalog identifier is included in database objects names.</value></data>
+  <data name="InvalidCommandTimeout" xml:space="preserve"><value>Invalid CommandTimeout value {0}; the value must be &gt;= 0.</value></data>
+  <data name="ConnectionPoolOptionsMissing" xml:space="preserve"><value>ConnectionPoolOptions missing.</value></data>
+  <data name="DbDataAdapter_InsertCommand" xml:space="preserve"><value>Used during Update for new rows in DataSet.</value></data>
+  <data name="DbConnectionString_Pooling" xml:space="preserve"><value>If true, the connection is drawn from the appropriate pool or is created and added to the pool.</value></data>
+  <data name="DbDump_GenerateHeader" xml:space="preserve"><value>Determines whether to add comments into the dump text.</value></data>
+  <data name="SelectStatement_FromParseIdentifierExprError" xml:space="preserve"><value>Error occurred while parsing the FROM clause: identifier or expression expected.</value></data>
+  <data name="UnknownConnectionStringParameter" xml:space="preserve"><value>Unknown connection string parameter {0}.</value></data>
+  <data name="ErrorOccurredInComponent" xml:space="preserve"><value>{0} occurred in component '{1}': {2}.</value></data>
+  <data name="InvalidConnectionOptionValue" xml:space="preserve"><value>Invalid value for key '{0}'.</value></data>
+  <data name="ParameterNameMissing" xml:space="preserve"><value>Parameter name is missing.</value></data>
+  <data name="SelectStatement_EndOfStatement" xml:space="preserve"><value>Unexpected end of statement found.</value></data>
+  <data name="DbTable_UpdateCommand" xml:space="preserve"><value>Used during Update for modified rows in DbTable.</value></data>
+  <data name="DataLink_DataSource" xml:space="preserve"><value>Indicates the source of data that this control will use to get its items.</value></data>
+  <data name="DbDataAdapter_RowUpdating" xml:space="preserve"><value>Event triggered after every DataRow during Update.</value></data>
+  <data name="DbCommandBuilder_Description" xml:space="preserve"><value>Generates commands used to reconcile changes made DataSet with the associated server database.</value></data>
+  <data name="RowNotExist" xml:space="preserve"><value>Row does not exist.</value></data>
+  <data name="DbDataParameter_Size" xml:space="preserve"><value>Size of variable length data types (string &amp; arrays).</value></data>
+  <data name="CollectionRemoveInvalidObject" xml:space="preserve"><value>Attempted to remove an {0} that is not contained by this {1}.</value></data>
+  <data name="DataAdapterMissingSourceCommand" xml:space="preserve"><value>The DataAdapter.SelectCommand property needs to be initialized.</value></data>
+  <data name="DbTable_StartRecord" xml:space="preserve"><value>Record number to start.</value></data>
+  <data name="DbDump_Mode" xml:space="preserve"><value>Determines whether to include data from tables into the dump text, script to create database objects or both.</value></data>
+  <data name="SshOptions_CipherList" xml:space="preserve"><value>Gets or sets list of ciphers that client agrees to use.</value></data>
+  <data name="DbDataParameter_Precision" xml:space="preserve"><value>For decimal, numeric, varnumeric DBTypes.</value></data>
+  <data name="IncorrectFormat" xml:space="preserve"><value>Input string was not in a correct format.</value></data>
+  <data name="DbDataTable_Quoted" xml:space="preserve"><value>Indicates whether to quote all the names of database objects.</value></data>
+  <data name="DataLink_Description" xml:space="preserve"><value>Allows establishing flexible cross-form data binding.</value></data>
+  <data name="InvalidSourceBufferIndex" xml:space="preserve"><value>Invalid source buffer offset: {1}</value></data>
+  <data name="DbDataAdapter_RowUpdated" xml:space="preserve"><value>Event triggered before every DataRow during Update.</value></data>
+  <data name="UnknownParameter" xml:space="preserve"><value>Unknown parameter {0}.</value></data>
+  <data name="SelectStatement_TooMuchParenteses" xml:space="preserve"><value>Unexpected closing parenthesis found.</value></data>
+  <data name="DbConnectionString_PersistSecurityInfo" xml:space="preserve"><value>When false, security-sensitive information, such as the password, is not returned as part of the connection if the connection is open or has ever been in an open state.</value></data>
+  <data name="DbDataTable_RefreshMode" xml:space="preserve"><value>Gets or sets a value that indicates whether the DbDataTable should include SQL code that retrieves field values adjusted by server.</value></data>
+  <data name="DataTableLink_Description" xml:space="preserve"><value>Allows establishing flexible cross-form data binding.</value></data>
+  <data name="InvalidDbMonitorVersion" xml:space="preserve"><value>Current version of dbMonitor is incompatible with {0}.
+Please update.</value></data>
+  <data name="DbDataTable_RowFetched" xml:space="preserve"><value>Event triggered when the data table finishes fetching the next row from server.</value></data>
+  <data name="DbCommand_Transaction" xml:space="preserve"><value>The transaction used by the command.</value></data>
+  <data name="DbDataTable_ReturnProviderSpecificTypes" xml:space="preserve"><value>Indicates whether provider-specific or common CLS-compliant values should be filled.</value></data>
+  <data name="DataLink_DataMember" xml:space="preserve"><value>Indicates the property to display for the items in this control.</value></data>
+  <data name="KeywordNotSupported" xml:space="preserve"><value>Keyword not supported: '{0}'.</value></data>
+  <data name="DbLoader_TwoColunmsExist" xml:space="preserve"><value>The given name {0} matches at least two names in the collection object with different cases, but does not match either of them with the same case.</value></data>
+  <data name="DbMonitor_UseIdeOutput" xml:space="preserve"><value>Enables or disables writing log to the IDE output window.</value></data>
+  <data name="DbConnectionString_MaxPoolSize" xml:space="preserve"><value>The maximum number of connections allowed in the pool. </value></data>
+  <data name="DbConnection_Description" xml:space="preserve"><value>Represents physical connection to database server.</value></data>
+  <data name="DbDump_Description" xml:space="preserve"><value>Serves to store a database or its parts as a script and to restore database from the generated script.</value></data>
+  <data name="DbCommand_Parameters" xml:space="preserve"><value>The parameters collection.</value></data>
+  <data name="DbConnectionString_ConnectionLifetime" xml:space="preserve"><value>Time interval (in seconds) during which connection is kept alive.</value></data>
+  <data name="SslOptions_Key" xml:space="preserve"><value>Gets or sets location of user's private key.</value></data>
+  <data name="DbConnection_State" xml:space="preserve"><value>The ConnectionState indicating whether the connection is open or closed.</value></data>
+  <data name="ConnectionOptionsMissing" xml:space="preserve"><value>ConnectionOptions missing.</value></data>
+  <data name="CommandCannotBeNull" xml:space="preserve"><value>Command cannot be Null.</value></data>
+  <data name="QueryShouldSelectDataFromOneTable" xml:space="preserve"><value>The query should select data from one table.</value></data>
+  <data name="SslConnectionIsNotAllowed" xml:space="preserve"><value>SSL connection is not allowed.</value></data>
+  <data name="DbCommand_CommandText" xml:space="preserve"><value>Command text to execute.</value></data>
+  <data name="DbCommand_CommandType" xml:space="preserve"><value>How to interpret the CommandText property.</value></data>
+  <data name="DbConnectionString_MinPoolSize" xml:space="preserve"><value>The minimum number of connections allowed in the pool.</value></data>
+  <data name="DbDataTable_KeyFields" xml:space="preserve"><value>List of key field names used to generate update commands, separated by semicolon.</value></data>
+  <data name="DbDataTable_UpdateBatchSize" xml:space="preserve"><value>Gets or sets a value that enables or disables batch processing support, and specifies the number of commands that can be executed in a batch.</value></data>
+  <data name="DbTable_FetchAll" xml:space="preserve"><value>Indicates whether the DataTable object will request all data from the server after Open.</value></data>
+  <data name="TableNameNotDef" xml:space="preserve"><value>Table name must be defined.</value></data>
+  <data name="InvalidParameterType" xml:space="preserve"><value>The Parameters collection only accepts {0} type objects.</value></data>
+  <data name="InvalidParameterDirection" xml:space="preserve"><value>The ParameterDirection enumeration value, {0}, is invalid.</value></data>
+  <data name="HttpOptions_Password" xml:space="preserve"><value>Password for the restricted Web site where the tunnelling script resides, 'HTTP Password=X' in the connection string.</value></data>
+  <data name="DbMonitor_NotSupportApp" xml:space="preserve"><value>This property can be used only in the editions that support the dbMonitor application.</value></data>
+  <data name="SelectStatement_EndExpected" xml:space="preserve"><value>Error occurred: end of statement expected.</value></data>
+  <data name="SelectStatement_SelectNotFoundError" xml:space="preserve"><value>SELECT keyword not found while parsing the statement.</value></data>
+  <data name="TransactionIsolationLevelNotSupported" xml:space="preserve"><value>Transaction isolation level {0} not supported.</value></data>
+  <data name="ProxyOptions_Host" xml:space="preserve"><value>The name or IP address of proxy server to which to connect, 'Proxy Host=X' in the connection string.</value></data>
+  <data name="ProxyOptions_User" xml:space="preserve"><value>The proxy server account, 'Proxy User=X' in the connection string.</value></data>
+  <data name="ProxyOptions_Port" xml:space="preserve"><value>The port of proxy server to which to connect, 'Proxy Port=X' in the connection string.</value></data>
+  <data name="DbConnection_AuthenticationPrompt" xml:space="preserve"><value>The event occurs when performing keyboard-interactive authentication</value></data>
+  <data name="SshOptions_Host" xml:space="preserve"><value>Gets or sets name or ip address of SSH server.</value></data>
+  <data name="SshOptions_Port" xml:space="preserve"><value>Gets ot sets number of port on SSH server to connect.</value></data>
+  <data name="SshOptions_User" xml:space="preserve"><value>Gets or sets user id on SSH server.</value></data>
+  <data name="NoQuoteChange" xml:space="preserve"><value>The QuotePrefix and QuoteSuffix properties cannot be changed once an Insert, Update, or Delete command has been generated.</value></data>
+  <data name="DbDataSet_Connection" xml:space="preserve"><value>Connection used by the DataSet.</value></data>
+  <data name="DbMonitor_IsActive" xml:space="preserve"><value>Enables or disables monitoring.</value></data>
+  <data name="DbConnection_SshHostKeyConfirmation" xml:space="preserve"><value>The event occurs when host key verification during establishing connection failed.</value></data>
+  <data name="PooledObjectInPoolMoreThanOnce" xml:space="preserve"><value>The pooled object is in the pool more than once.</value></data>
+  <data name="DbLoader_ColunmWithIndexDoesNotExist" xml:space="preserve"><value>Column with index {0} does not exist.</value></data>
+  <data name="ErrorReadModifiedOrDetachedRow" xml:space="preserve"><value>Can not read modified or detached row.</value></data>
+  <data name="DbConnectionString_DefaultCommandTimeout" xml:space="preserve"><value>The default timeout that command objects will use unless changed.</value></data>
+  <data name="DbDump_Connection" xml:space="preserve"><value>Connection that will be used to backup or restore database.</value></data>
+  <data name="ParamValueMissing" xml:space="preserve"><value>Parameter value missing</value></data>
+  <data name="DbConnectionString_TransactionScopeLocal" xml:space="preserve"><value>Indicates whether to use internal (non distributed) transaction to participate in a global transaction.</value></data>
+  <data name="DataLink_Synchronized" xml:space="preserve"><value>Determines whether to synchronize position with DataSource.</value></data>
+  <data name="PoolTimeoutExpired" xml:space="preserve"><value>Timeout expired.  The timeout period elapsed prior to obtaining a connection from the pool.  This may have occurred because all pooled connections were in use and max pool size was reached.</value></data>
+  <data name="PushingObjectSecondTime" xml:space="preserve"><value>Pushing object second time.</value></data>
+  <data name="DbDataAdapter_Description" xml:space="preserve"><value>Represents a set of data commands and a database connection that are used to fill DataSet and update a database.</value></data>
+  <data name="DbDataParameter_Direction" xml:space="preserve"><value>Indicates whether the parameter is input-only, output-only, or bidirectional.</value></data>
+  <data name="ClosedConnectionError" xml:space="preserve"><value>Invalid operation. The connection is closed.</value></data>
+  <data name="SelectCommandNotInit" xml:space="preserve"><value>SelectCommand property has not been initialized.</value></data>
+  <data name="StreamNoWrite" xml:space="preserve"><value>The stream does not support writing.</value></data>
+  <data name="DbDataTable_FillError" xml:space="preserve"><value>Event triggered when an error occurs during a fill operation.</value></data>
+  <data name="OpenConnectionStringSet" xml:space="preserve"><value>Not allowed to change the 'ConnectionString' property. The connection's current state is open.</value></data>
+  <data name="WriteToStreamFailed" xml:space="preserve"><value>Writing to the stream failed.</value></data>
+  <data name="MissingSourceCommand" xml:space="preserve"><value>The DataAdapter.SelectCommand property needs to be initialized.</value></data>
+  <data name="NonPooledObjectUsedMoreThanOnce" xml:space="preserve"><value>Non pooled object used more than once.</value></data>
+  <data name="DynamicSQLJoinUnsupported" xml:space="preserve"><value>Dynamic SQL generation is not supported against multiple base tables.</value></data>
+  <data name="NonSequentialColumnAccess" xml:space="preserve"><value>Invalid attempt to read from column ordinal '{0}'.  With CommandBehavior.SequentialAccess, you may only read from column ordinal '{1}' or greater.</value></data>
+  <data name="SelectStatement_FromParseIdentifierError" xml:space="preserve"><value>Error occurred while parsing table name: identifier expected.</value></data>
+  <data name="ArgumentOutOfRangeNegativeValue" xml:space="preserve"><value>{0} cannot be less than zero.</value></data>
+  <data name="SshOptions_Password" xml:space="preserve"><value>Gets or sets user password on SSH server.</value></data>
+  <data name="ParamCanNotBeNull" xml:space="preserve"><value>Parameter can not be null</value></data>
+  <data name="DbScript_Progress" xml:space="preserve"><value>Event triggered when executing the next SQL statement within the script.</value></data>
+  <data name="ParametersSourceIndex" xml:space="preserve"><value>A parameter with name '{0}' is not contained by this Parameters collection.</value></data>
+  <data name="DbTable_SelectCommand" xml:space="preserve"><value>Used during Fill/FillSchema.</value></data>
+  <data name="ConnectionStateNotSupported" xml:space="preserve"><value>Connection state {0} not supported.</value></data>
+  <data name="DbTable_InsertCommand" xml:space="preserve"><value>Used during Update for new rows in DbTable.</value></data>
+  <data name="DbDataTable_RemotingFormat" xml:space="preserve"><value>Gets or sets the serialization format.</value></data>
+  <data name="DbDataTable_ConflictOption" xml:space="preserve"><value>Specifies how conflicting changes to the data source will be detected and resolved.</value></data>
+  <data name="DbCommandBuilder_RefreshMode" xml:space="preserve"><value>Gets or sets a value that indicates whether the command builder should include SQL code that retrieves field values adjusted by server.</value></data>
+  <data name="DbMonitor_EventQueueLimit" xml:space="preserve"><value>The maximal number of events in the queue for sending to dbMonitor application. If the number of messages in the queue reaches this number, new messages are ignored. Default value is 1000. If set to 0, it means that queue size is not limited.</value></data>
+  <data name="DbCommand_UpdatedRowSource" xml:space="preserve"><value>When used by a DataAdapter.Update, controls how command results are applied to the current DataRow.</value></data>
+  <data name="CannotConvert" xml:space="preserve"><value>Cannot convert value</value></data>
+  <data name="InvalidCommandType" xml:space="preserve"><value>The CommandType enumeration value, {0}, is invalid.</value></data>
+  <data name="FetchInProgress" xml:space="preserve"><value>Fetch in progress.</value></data>
+  <data name="DbLoader_Columns" xml:space="preserve"><value>Collection of columns which loaded table consist of.</value></data>
+  <data name="InvalidCast_FromTo" xml:space="preserve"><value>Invalid cast from '{0}' to '{1}'.</value></data>
+  <data name="SslOptions_Cert" xml:space="preserve"><value>Gets or sets location of client certificate.</value></data>
+  <data name="DbConnection_ProxyOptions" xml:space="preserve"><value>Represents information required to establish a proxy-based connection.</value></data>
+  <data name="DbCommandBuilder_RefreshingFields" xml:space="preserve"><value>Gets or sets list of fields whose values should be retrieved after a DML statement execution.</value></data>
+  <data name="DbLoader_Connection" xml:space="preserve"><value>Connection used by the loader.</value></data>
+  <data name="DynamicSQLNoTableInfo" xml:space="preserve"><value>Dynamic SQL generation is not supported against a SelectCommand that does not return any base table information.</value></data>
+  <data name="DbCommandBuilder_UpdatingFields" xml:space="preserve"><value>Gets or sets a string containing list of field names used to generate update commands.</value></data>
+  <data name="DuplicateStringParameter" xml:space="preserve"><value>Connection parameter '{0}' is duplicated.</value></data>
+  <data name="StreamNoRead" xml:space="preserve"><value>The stream does not support reading.</value></data>
+  <data name="ProxyOptions_Password" xml:space="preserve"><value>The password for the proxy server account, 'Proxy Password=X' in the connection string.</value></data>
+  <data name="ProcNameNotDef" xml:space="preserve"><value>Stored procedure name must be defined.</value></data>
+  <data name="DbConnectionString_InitializationCommand" xml:space="preserve"><value>Specifies a database-specific command that is executed immediately after opening the connection.</value></data>
+  <data name="DbCommand_Connection" xml:space="preserve"><value>Connection used by the command.</value></data>
+  <data name="MissingSourceCommandConnection" xml:space="preserve"><value>The DataAdapter.SelectCommand.Connection property needs to be initialized.</value></data>
+  <data name="DbTable_Connection" xml:space="preserve"><value>Connection used by the DbTable.</value></data>
+  <data name="DbDataTable_UpdatingTable" xml:space="preserve"><value>Table name to generate update statements for.</value></data>
+  <data name="DataReaderClosed" xml:space="preserve"><value>Invalid attempt to {0} when reader is closed.</value></data>
+  <data name="HttpOptions_MaxConnectionAge" xml:space="preserve"><value>Maximum connection age in seconds, 'HTTP Max Connection Age=X' in the connection string. This property is obsolete.</value></data>
+  <data name="DbConnection_Password" xml:space="preserve"><value>The user password.</value></data>
+  <data name="DbTable_Active" xml:space="preserve"><value>Opens or closes the DbTable.</value></data>
+  <data name="ParametersMappingIndex" xml:space="preserve"><value>Invalid index {0} for this parameter.</value></data>
+  <data name="DbMonitor_UseApp" xml:space="preserve"><value>Determines whether to send data to dbMonitor application, true by default.</value></data>
+  <data name="GetConnectionReturnsNull" xml:space="preserve"><value>GetConnection returns Null.</value></data>
+  <data name="DbConnection_HttpOptions" xml:space="preserve"><value>Represents information required to establish a HTTP tunnel based connection.</value></data>
+  <data name="DbDataParameter_SourceColumn" xml:space="preserve"><value>The name of the source column that will be used to set the value of this parameter.</value></data>
+  <data name="ConnNotOpen" xml:space="preserve"><value>Connection was not opened.</value></data>
+  <data name="ParameterNull" xml:space="preserve"><value>The Parameters collection only accepts non-null {0} type objects.</value></data>
+  <data name="ConnMustOpen" xml:space="preserve"><value>Connection must be opened.</value></data>
+  <data name="HttpOptions_ContentLength" xml:space="preserve"><value>Size of message body in bytes for both client and server, 'HTTP Content Length=X' in the connection string. This property is obsolete.</value></data>
+  <data name="ErrorOccurred" xml:space="preserve"><value>{0} occurred:{1}.</value></data>
+  <data name="PooledObjectHasOwner" xml:space="preserve"><value>Pooled object has an owner.</value></data>
+  <data name="DbLoader_BufferSize" xml:space="preserve"><value>The size of data packet loaded to the server.</value></data>
+  <data name="StreamNotOpened" xml:space="preserve"><value>The Stream is not opened.</value></data>
+  <data name="DbCommandBuilder_AllRefreshNotSupported" xml:space="preserve"><value>Refresh command generation is not supported when all fields are refreshed.</value></data>
+  <data name="DbDump_ExecutionInProgress" xml:space="preserve"><value>The '{0}' method cannot be executed because an asynchronous operation is in progress.</value></data>
+  <data name="DbConnection_ConnectionTimeout" xml:space="preserve"><value>The time (in seconds) to wait for a connection to open, 'Connect Timeout=X' in the ConnectionString.</value></data>
+  <data name="InvalidSizeValue" xml:space="preserve"><value>Invalid parameter Size value '{0}'. The value must be greater than or equal to 0.</value></data>
+  <data name="ParametersIsNotParent" xml:space="preserve"><value>The parameter with name '{0}' is already contained by another Parameters collection.</value></data>
+  <data name="DbDataTable_FetchFinished" xml:space="preserve"><value>Event triggered when data table finishes fetching all records from server.</value></data>
+  <data name="DbDataParameter_SourceVersion" xml:space="preserve"><value>The DataRowVersion to use when loading Value.</value></data>
+  <data name="ConnectionAlreadyOpen" xml:space="preserve"><value>The connection was not closed.</value></data>
+  <data name="SshOptions_Passphrase" xml:space="preserve"><value>Gets or sets the client key  passphrase.</value></data>
+  <data name="DbLoader_TableWasNotInitialized" xml:space="preserve"><value>TableName property was not initialized.</value></data>
+  <data name="DbDataTable_Disposed" xml:space="preserve"><value>Adds an event handler to listen to the Disposed event on the component.</value></data>
+  <data name="InvalidMinMaxPoolSizeValues" xml:space="preserve"><value>Invalid min or max pool size values, min pool size cannot be greater than the max pool size.</value></data>
+  <data name="DbDataTable_RefreshingFields" xml:space="preserve"><value>Gets or sets list of fields whose values should be retrieved after a DML statement execution.</value></data>
+  <data name="SshOptions_AuthenticationType" xml:space="preserve"><value>Gets or sets the client authentication method.</value></data>
+  <data name="SelectStatement_KeywordError" xml:space="preserve"><value>Unexpected keyword found.</value></data>
+  <data name="DbTable_DeleteCommand" xml:space="preserve"><value>Used during Update for deleted rows in DbTable.</value></data>
+  <data name="DbDataTable_MissingSchemaAction" xml:space="preserve"><value>Determines the action to take when existing DataSet schema does not match incoming data.</value></data>
+  <data name="SelectStatement_FromParseAliasError" xml:space="preserve"><value>Error occurred while parsing the FROM clause: table alias expected.</value></data>
+  <data name="SslCantRunOnDesktop" xml:space="preserve"><value>The connection in SSL mode can run only on a mobile device. It can not be tested on desktop environment due to difference in SSL platform implementation.</value></data>
+  <data name="StreamAlreadyClosed" xml:space="preserve"><value>The stream has already been closed.</value></data>
+  <data name="SshOptions_Strict_Host_Key_Checking" xml:space="preserve"><value>Indicates whether the host key is verified during establishing connection.</value></data>
+  <data name="DataReaderNoData" xml:space="preserve"><value>No data exists for the row/column.</value></data>
+  <data name="InvalidDestinationBufferIndex" xml:space="preserve"><value>Invalid destination buffer offset: {1}</value></data>
+  <data name="DbDataParameter_Value" xml:space="preserve"><value>The value of the parameter.</value></data>
+  <data name="DbDataParameter_Scale" xml:space="preserve"><value>For decimal, numeric, varnumeric DBTypes.</value></data>
+  <data name="DbTable_TableMapping" xml:space="preserve"><value>Mapped relationship between a source table and a DbTable.</value></data>
+  <data name="DbDump_IncludeDrop" xml:space="preserve"><value>Generate DROP statements befor CREATE statements.</value></data>
+  <data name="ProxyOptions_ProxyAddress" xml:space="preserve"><value>Gets the URI address of the HTTP proxy.</value></data>
+  <data name="DbScript_Connection" xml:space="preserve"><value>Connection used by script.</value></data>
+  <data name="DbConnectionString_ValidateConnection" xml:space="preserve"><value>Indicates whether to validate connections that are being got from the pool.</value></data>
+  <data name="DbMonitor_Description" xml:space="preserve"><value>Allows to monitor dynamic SQL execution.</value></data>
+  <data name="DbCommandBuilder_SchemaSeparator" xml:space="preserve"><value>Separator between schema and table.</value></data>
+  <data name="TransactionNotDisposed" xml:space="preserve"><value>The transaction associated with the current connection has completed but has not been disposed. The transaction must be disposed before the connection can be used to execute SQL statements.</value></data>
+  <data name="CatalogSeparatorNotSupported" xml:space="preserve"><value>CatalogSeparator not supported.</value></data>
+  </root>
